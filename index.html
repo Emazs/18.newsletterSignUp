@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+        <link rel="stylesheet" href="/18.newsletterSignUp/style/normalize.css">
+        <link rel="stylesheet" href="/18.newsletterSignUp/style/style.css">
+    </head>
+
+    <body>
+        <!-- Sign-up form start -->
+        <section class="container">
+
+            <section class="sectionContent">
+                <div class="content">
+                    <h1>Stay updated!</h1>
+                    <p>Join 60,000+ product managers receiving monthly <br class="saltoLinea"> updates on:</p>
+
+                    <ul>
+                        <li>Product discovery and building what matters</li>
+                        <li>Measuring to ensure updates are a success</li>
+                        <li>And much more!</li>
+                    </ul>
+
+                    <div class="validEmail">
+                        <h4>Email address</h4>
+                        <p class="requiredEmail">Valid email required</p>
+                    </div>
+                </div>
+
+                <div class="sectionEmail">
+                    <input type="email" placeholder="email@company.com" id="inputEmail"></input>
+                    <input type="button" value="Subscribe to monthly newsletter" id="inputButton"></input>
+                </div>
+            </section>
+
+            <section>
+                <img src="/18.newsletterSignUp/assets/images/illustration-sign-up-desktop.svg" class="illustration" alt="">
+            </section>
+        </section>
+
+        <section class="container2">
+            <div>
+                <img src="/18.newsletterSignUp/assets/images/icon-list.svg" alt="" class="illustration2">
+
+                <h1>Thanks for subscribing!</h1>
+                <p>
+                    A confirmation email has been sent to <span class="agregarEmail"></span>.
+                    Please open it and click the button inside to confirm your subscription.
+                </p>
+                <input type="button" value="Dismiss message" class="buttonDismiss"></input>
+            </div>
+
+        </section>
+
+        <script src="/18.newsletterSignUp/scripts/script.js"></script>
+    </body>
+
+</html>
