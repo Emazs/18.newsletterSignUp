@@ -181,3 +181,86 @@ input[type=button]:hover {
 .Activate{
     display: flex;
 }
+
+.illustrationMobile{
+    display: none;
+}
+
+/*responsive*/
+
+@media only screen and (max-width: 996px){
+    body{
+        height: auto;
+        display: block;
+        background: none;
+    }
+
+    .container{
+        padding: 0;
+        width: auto;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .illustration{
+        display: none;
+    }
+
+    .image{
+        width: 100%;
+        height: 370px;
+        background-size: cover;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(/18.newsletterSignUp/assets/images/illustration-sign-up-mobile.svg);
+    }
+
+    .container2{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .container{
+        align-items: start;
+    }
+
+    .image{
+        height: 300px;
+        background-size:cover;
+    }
+
+    .sectionContent{
+        width: 90%;
+    }
+    
+    .content h1 {
+        margin-top: 30px;
+        margin-bottom: 1.5rem;
+        color: var(--DarkSlateGrey);
+        font-size: 50px;
+    }
+    
+    .content p{
+        max-width: 370px;
+        font-size: 19px;
+        line-height: 2rem;
+    }
+
+    .content li {
+        font-size: 17px;
+    }
+
+    input[type=email] {
+        width: 84%;
+    }
+    
+
+    input[type=button] {
+        width: 90%;
+    }
+    
+    .container2 input {
+        margin-top: 12rem;
+    }
+}
